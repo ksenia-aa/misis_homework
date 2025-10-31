@@ -1,0 +1,61 @@
+#111111111111111111111111111111111111111
+'''l, r = map(int,input().split())
+k = 1
+while k<l:
+    k*=2
+while k<=r/2:
+    print(k, end=' ')
+    k*=2
+print(k)'''
+#222222222222222222222222222222222222222
+'''n = int(input())
+for i in range(1, n+1):
+    if n%i==0:
+        print(i)'''
+ #33333333333333333333333333333333333333
+'''n = int(input())
+if n%4 == 0 and n%100 != 0 or n%400 == 0:
+    print('Да')
+else:
+    print('Нет')'''
+#444444444444444444444444444444444444444
+'''k, l, m, n = map(int, input().split())
+if k==m or l==n  or  (abs(k-l) == abs(m-n) ):
+    print("Да")
+else:
+    print("Нет")'''
+#555555555555555555555555555555555555555
+'''n = int(input())
+h = n//3600
+m = (n-3600*h)//60
+print(h,'hours',m,'minutes')'''
+#666666666666666666666666666666666666666
+'''n = int(input())
+a = ' '
+b = '*'
+k = 1
+for i in range(n, 0, -1):
+    print(a*(i-1), b*k, sep='')
+    k+=2'''
+#777777777777777777777777777777777777777
+'''n = int(input())
+mn = 1001
+mx = -1001
+for i in range(n):
+    a = int(input())
+    if a>mx:
+        mx = a
+    if a<mn:
+        mn = a 
+print(mn, mx)'''
+#88888888888888888888888888888888888888
+'''n = int(input())
+mn = 1001
+mn2 = 1001
+for i in range(n):
+    a = int(input())
+    if a <= mn:
+        mn, min2 = a, mn
+    elif a < mn2:
+        mn2 = a
+print(mn, mn2)'''
